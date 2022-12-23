@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/**header top section start**/
+.header-top-section{
+ height: 40px;
+ background: #222222;
+}
+.header-top-section .container{
+ max-width: 1180px;
+ height: 40px;
+ margin: 0 auto;
+ padding: 0px 30px;
+ display: flex;
+ align-items: center;
+}
+.header-top-section .container .contract a{
+ font-size: 12pt;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 300;
+ padding-right: 10px;
+}
+.header-top-section .container .contract .phn{
+ position: relative;
+ padding-right: 55px;
+ padding-left: 30px;
+}
+.header-top-section .container .contract .phn::before{
+ content: "\f095";
+ font-family: fontawesome;
+ color: #30aad7;
+ position: absolute;
+ left: 2px;
+ top: 40%;
+ transform: translateY(-50%);
+}
+.header-top-section .container .contract .email{
+ position: relative;
+ padding-right: 55px;
+}
+.header-top-section .container .contract .email::before{
+ content: "\f0e0";
+ font-family: fontawesome;
+ color: #30aad7;
+ position: absolute;
+ left: -25px;
+ top: 50%;
+ transform: translateY(-50%);
+}
+.header-top-section .container .contract .location-arrow{
+ position: relative;
+}
+.header-top-section .container .contract .location-arrow::before{
+ content: "\f3c5";
+ position: absolute;
+ font-family: fontawesome;
+ color: #30aad7;
+ left: -20px;
+ top: 40%;
+ transform: translateY(-50%);
+}
+.header-top-section .container a{
+ color: #fff;
+ transform: .4s;
+}
+.header-top-section .container a:hover{
+ color: #30aad7;
+}
+/**header top section end**/
+/**banner section start**/
+.banner-section .container{
+ position: relative;
+ max-width: 1180px;
+ margin: 0 auto;
+ padding: 0px 30px;
+}
+.banner-section .container .logo{
+ position: absolute;
+ transform: translateY(-610%);
+ width: 2.444in;
+}
+.banner-section .container .top-button{
+ position: absolute;
+ top: -700px;
+ transform: translateX(190%);
+}
+.banner-section .container .top-button a{
+ text-decoration: none;
+ color: #fff;
+ font-size: 16px;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 500;
+}
+.banner-section .container .top-button .butn1{
+ background-color: #9b95c9;
+ padding: 10px 25px;
+ border-radius: 50px;
+ transform: 0.04s;
+}
+.banner-section .container .top-button .butn1:hover{
+ background-color: #9691b2;
+}
+.banner-section .container .top-button .butn2{
+ background-color: #25b9b1;
+ padding: 10px 25px;
+ border-radius: 50px;
+ transform: 0.04s;
+}
+.banner-section .container .top-button .butn2:hover{
+ background-color: #658f8c;
+}
+.banner-section .container .content h2{
+ font-size: 50px;
+ color: #fff;
+ font-weight: 700;
+ font-family: 'Montserrat', sans-serif;
+}
+.banner-section .container .content p{
+ color: #fff;
+ font-size: 18px;
+ font-weight: 300;
+ font-family: 'Montserrat', sans-serif;
+}
+.banner-section .container .content{
+ position: absolute;
+ transform: translateY(-310%);
+}
+.banner-section .container .content a{
+ color: #fff;
+ text-decoration: none;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 16px;
+ font-weight: 700;
+}
+.banner-section .container .content .butn3{
+ background-color: #54073f;
+ padding: 10px 25px;
+ border-radius: 50px;
+ transform: 0.04s;
+}
+.banner-section .container .content .butn3:hover{
+ background-color: #24031b;
+}
+.banner-section .container .content .butn4{
+ background-color: #25b9b1;
+ padding: 10px 25px;
+ border-radius: 50px;
+ transform: 0.04s;
+}
+.banner-section .container .content .butn4:hover{
+ background-color: #658f8c;
+}
+.banner-section .container .content h2{
+ font-size: 50px;
+ color: #fff;
+ font-weight: 700;
+ font-family: 'Montserrat', sans-serif;
+}
+.banner-section .about-lcd{
+ display: flex;
+ align-items: center;
+}
+.banner-section .about-lcd .text1{
+ color: #fff;
+ font-size: 36px;
+ font-weight: 700;
+ background-color: #0cdacf;
+ padding: 44px 175.5px;
+}
+.banner-section .about-lcd .text2{
+ color: #fff;
+ font-size: 36px;
+ font-weight: 700;
+ background-color: #1cccc2;
+ padding: 44px 172px;
+}
+.banner-section .about-lcd .text3{
+ color: #fff;
+ font-size: 36px;
+ font-weight: 700;
+ background-color: #25b9b1;
+ padding: 44px 172px;
+}
+/**banner section end**/
+/**appointment section start**/
+.appointment-section .container{
+ position: relative;
+ max-width: 1180px;
+ margin: 0 auto;
+ padding: 0px 30px;
+}
+.appointment-section .container .text-absection{
+ text-align: center;
+ padding: 70px 120px;
+}
+.appointment-section .container .text-absection h3{
+ font-size: 40pt;
+ font-weight: 700;
+ font-family: 'Montserrat', sans-serif;
+ color: #005b8b;
+}
+.appointment-section .container .text-absection p{
+ font-size: 18px;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 400;
+}
+.appointment-section .container .appointment-plan{
+ display: flex;
+ text-align: center;
+ font-family: 'Montserrat', sans-serif;
+}
+.appointment-section .container .appointment-plan .Comprehensive-care{
+ background-color: #eff9fd;
+ border-radius: 10px;
+ width: 380px;
+ height: 288px;
+ margin: 10px;
+ padding: 30px 0px;
+}
+.appointment-section .container .appointment-plan .Comprehensive-care .about-Compr-Care{
+ padding: 50px 0px;
+
+}
+.appointment-section .container .appointment-plan .Right-Plan{
+ background-color: #eff9fd;
+ border-radius: 10px;
+ width: 350px;
+ height: 285px;
+ margin: 10px;
+ padding: 30px 0;
+}
+.appointment-section .container .appointment-plan .Right-Plan .about-Right-Plan{
+ padding: 50px 10px;
+}
+.appointment-section .container .appointment-plan .Smile-Love{
+ background-color: #eff9fd;
+ border-radius: 10px;
+ width: 350px;
+ height: 285px;
+ margin: 10px;
+ padding: 30px 0px;
+}
+.appointment-section .container .appointment-plan .Smile-Love .about-Smile-Love{
+ padding: 50px 10px;
+}
+.appointment-section .container .plan-butten{
+ display: flex;
+ justify-content: center;
+}
+.appointment-section .container .plan-butten a{
+ text-decoration: none;
+ font-size: 18px;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 700;
+ margin: 20px 10px;
+ color: #fff;
+}
+.appointment-section .container .plan-butten .butn4{
+ background-color: #54073f;
+ padding: 10px 25px;
+ border-radius: 50px;
+ transform: 0.04s;
+}
+.appointment-section .container .plan-butten .butn4:hover{
+ background-color: #24031b;
+}
+.appointment-section .container .plan-butten .butn5{
+ background-color: #25b9b1;
+ padding: 10px 25px;
+ border-radius: 50px;
+ transform: 0.04s;
+}
+.appointment-section .container .plan-butten .butn5:hover{
+ background-color: #658f8c;
+}
+.Technology-section img{
+ padding: 70px 0;
+ width: 100%;
+}
+.Technology-section .container{
+ position: relative;
+ max-width: 1180px;
+ margin: 0 auto;
+ padding: 0px 30px;
+}
+.Technology-section .container
+/**appointment section end**/
